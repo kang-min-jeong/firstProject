@@ -2,9 +2,9 @@ package firstProject;
 
 public class AvgExample {
 	public static void main(String[] args) {
-		// ±¹¾î, ¿µ¾î, ¼öÇĞ 0 ~ 100
-		// ±¹¾î : 85, ¼öÇĞ : 88, ¿µ¾î: 83
-		// ÇÕ°è, Æò±Õ 
+		// êµ­ì–´, ì˜ì–´, ìˆ˜í•™ 0 ~ 100
+		// êµ­ì–´ : 85, ìˆ˜í•™ : 88, ì˜ì–´: 83
+		// í•©ê³„, í‰ê·  
 		int  kor;
 		int  eng;
 		int  math;
@@ -13,8 +13,9 @@ public class AvgExample {
 		math = 88;
 		int sum = kor + eng + math;
 		double avg = sum / 3.0;
-		String name = " °­¹ÎÁ¤ ";
-		System.out.println(name + "ÀÇ Á¡¼öÇÕ°è´Â" + sum + ", Æò±ÕÀº " + avg + " ÀÔ´Ï´Ù ");
+		String name = " ê°•ë¯¼ì • ";
+		System.out.println(name + "ì˜ ì ìˆ˜í•©ê³„ëŠ”" + sum + ", í‰ê· ì€ " + avg + " ì…ë‹ˆë‹¤ ");
+		int result = 0;
 	}
 
 }
